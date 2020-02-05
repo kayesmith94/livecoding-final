@@ -17,7 +17,7 @@ namespace Final
 
             Console.WriteLine("You should buy" + candycount + "pieces of candy.");
         }
-         static double HowMuchCandy(int temp, string weather)
+         static double HowMuchCandy(double temp, string weather)
         {
             double kids = 250;
             
